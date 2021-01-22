@@ -70,4 +70,6 @@ def main():
         d = dict(zip(keys,values))
         print(f"Dictionary length {len(d)}")
         print(f"Time to del in a dictionnary: {get_time(del_dict(d))}")
+
+        
 main()
